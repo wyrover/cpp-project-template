@@ -15,4 +15,6 @@ add_executable(test1 test1.cpp)
 target_link_libraries(test1 gtest gtest_main)
 add_test(test1 test1)
 
-add_executable(main main.cpp)
+add_executable(main src/main.cpp)
+
+
