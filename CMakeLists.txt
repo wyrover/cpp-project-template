@@ -18,3 +18,8 @@ add_test(test1 test1)
 add_executable(main src/main.cpp)
 
 
+# 根 CMakeList.txt 目录下的子目录
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
+
